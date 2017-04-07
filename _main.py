@@ -2,7 +2,7 @@
 #
 #author:wuhao
 #
-#数独算法，先来一个简单的4x4
+#数独算法
 
 import time
 
@@ -61,8 +61,7 @@ def FillData(a,i,j):
         return list_a
     return a[i][j]
 
-Game_over=False
-
+Game_over=False         #设置全局变量
 
 def listData(a,posx,posy,f):
     global Game_over
